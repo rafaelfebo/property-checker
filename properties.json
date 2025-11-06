@@ -1,0 +1,117 @@
+{
+	"properties": [
+        {
+            "id":"prop1",
+			"type":"House",
+            "bedrooms":3,
+			"price":750000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
+			"picture":"images/prop1pic1small.jpg",
+			"url":"properties/prop1.html",
+            "added": {
+                "month":"October",
+                "day":12,
+                "year":2022
+            }
+        },
+        {
+            "id": "prop2",
+            "type": "Apartment",
+            "bedrooms": 2,
+            "price": 425000,
+            "tenure": "Leasehold",
+            "description": "Beautifully presented two bedroom ground floor apartment located in a quiet residential development just 0.3 miles from Chislehurst High Street with its array of boutique shops, cafes and restaurants. The property features a spacious open-plan living/kitchen area with French doors leading to a private patio garden, modern bathroom, and two well-proportioned bedrooms with built-in storage. Additional benefits include allocated parking, communal gardens, and easy access to Chislehurst train station with regular services to central London.",
+            "location": "Elm Park, Chislehurst, Kent BR7",
+            "picture": "images/prop2pic1small.jpg",
+            "url": "properties/prop2.html",
+            "added": {
+                "month": "November",
+                "day": 5,
+                "year": 2025
+            }
+        },
+        {
+            "id": "prop3",
+            "type": "Bungalow",
+            "bedrooms": 3,
+            "price": 620000,
+            "tenure": "Freehold",
+            "description": "Spacious three bedroom detached bungalow situated in a sought-after cul-de-sac location. The property offers generous accommodation including a large lounge, modern kitchen/diner, family bathroom, and en-suite to master bedroom. Features include double glazing, gas central heating, driveway parking, garage, and a beautifully maintained rear garden.",
+            "location": "Sandy Lane, Sevenoaks, Kent TN13",
+            "picture": "images/prop3pic1small.jpg",
+            "url": "properties/prop3.html",
+            "added": {
+                "month": "October",
+                "day": 28,
+                "year": 2025
+            }
+        },
+        {
+            "id": "prop4",
+            "type": "Terraced House",
+            "bedrooms": 4,
+            "price": 850000,
+            "tenure": "Freehold",
+            "description": "Impressive four bedroom Victorian family home offering over 1,800 sq ft of well-proportioned living space. Features include high ceilings, original period details, bay windows, and a 50ft south-facing garden. Located within walking distance of Petts Wood station and local amenities.",
+            "location": "The Crescent, Petts Wood, Orpington BR5",
+            "picture": "images/prop4pic1small.jpg",
+            "url": "properties/prop4.html",
+            "added": {
+                "month": "November",
+                "day": 1,
+                "year": 2025
+            }
+        },
+        {
+            "id": "prop5",
+            "type": "Maisonette",
+            "bedrooms": 1,
+            "price": 310000,
+            "tenure": "Leasehold",
+            "description": "Stylish one bedroom first-floor maisonette in a secure gated development. The property boasts a modern kitchen, contemporary bathroom, and a private balcony. Close to Chislehurst station and local shops, with communal gardens and allocated parking.",
+            "location": "Cedar Gardens, Chislehurst, Kent BR7",
+            "picture": "images/prop5pic1small.jpg",
+            "url": "properties/prop5.html",
+            "added": {
+                "month": "October",
+                "day": 20,
+                "year": 2025
+            }
+        },
+        {
+            "id": "prop6",
+            "type": "Detached House",
+            "bedrooms": 5,
+            "price": 1250000,
+            "tenure": "Freehold",
+            "description": "Luxurious five bedroom executive family home set on a generous plot with stunning views over the surrounding countryside. The property features a designer kitchen, spacious living areas, en-suites to all bedrooms, a study, cinema room, and a landscaped rear garden with patio and lawn. Located in a private road with excellent schools nearby.",
+            "location": "Green Lane, Woldingham, Surrey CR3",
+            "picture": "images/prop6pic1small.jpg",
+            "url": "properties/prop6.html",
+            "added": {
+                "month": "November",
+                "day": 3,
+                "year": 2025
+            }
+        },
+        {
+            "id": "prop7",
+            "type": "Studio Apartment",
+            "bedrooms": 1,
+            "price": 275000,
+            "tenure": "Leasehold",
+            "description": "Contemporary studio apartment in a modern development with concierge service and communal roof terrace. The open-plan living space includes a fitted kitchen and modern bathroom. Ideal for first-time buyers or investors, just 0.2 miles from Elmers End station with direct links to London.",
+            "location": "Station Road, Beckenham, Kent BR3",
+            "picture": "images/prop7pic1small.jpg",
+            "url": "properties/prop7.html",
+            "added": {
+                "month": "October",
+                "day": 15,
+                "year": 2025
+            }
+        }
+    ]
+}
+
