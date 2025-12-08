@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Nav from './component/Nav'
-import Content from './component/Content'
-import Footer from './component/footer'
+import Content from './components/Content'
+import Footer from './components/Footer'
 
 function App() {
   return (

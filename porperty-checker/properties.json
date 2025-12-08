@@ -1,19 +1,19 @@
 {
-	"properties": [
+    "properties": [
         {
-            "id":"prop1",
-			"type":"House",
-            "bedrooms":3,
-			"price":750000,
-			"tenure":"Freehold",
-			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
-			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
-			"picture":"images/prop1pic1small.jpg",
-			"url":"properties/prop1.html",
+            "id": "prop1",
+            "type": "House",
+            "bedrooms": 3,
+            "price": 750000,
+            "tenure": "Freehold",
+            "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+            "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+            "picture": "images/prop1pic1small.jpg",
+            "url": "properties/prop1.html",
             "added": {
-                "month":"October",
-                "day":12,
-                "year":2022
+                "month": "October",
+                "day": 12,
+                "year": 2022
             }
         },
         {
@@ -29,7 +29,7 @@
             "added": {
                 "month": "November",
                 "day": 5,
-                "year": 2025
+                "year": 2021
             }
         },
         {
@@ -45,7 +45,7 @@
             "added": {
                 "month": "October",
                 "day": 28,
-                "year": 2025
+                "year": 2020
             }
         },
         {
@@ -61,7 +61,7 @@
             "added": {
                 "month": "November",
                 "day": 1,
-                "year": 2025
+                "year": 2023
             }
         },
         {
@@ -77,7 +77,7 @@
             "added": {
                 "month": "October",
                 "day": 20,
-                "year": 2025
+                "year": 2000
             }
         },
         {
@@ -93,7 +93,7 @@
             "added": {
                 "month": "November",
                 "day": 3,
-                "year": 2025
+                "year": 2024
             }
         },
         {
@@ -109,9 +109,56 @@
             "added": {
                 "month": "October",
                 "day": 15,
+                "year": 2021
+            }
+        },
+        {
+            "id": "prop8",
+            "type": "House",
+            "bedrooms": 4,
+            "price": 895000,
+            "tenure": "Freehold",
+            "description": "Four bedroom detached property in a quiet residential road offering two reception rooms, refurbished kitchen, utility room, study, and landscaped rear garden. The first floor includes a master bedroom with en-suite, three additional bedrooms, and a modern family bathroom. Benefits include garage, driveway, and proximity to local schools and transport links.",
+            "location": "Oakfield Road, Bromley, Kent BR1",
+            "picture": "images/prop4pic1small.jpg",
+            "url": "properties/prop4.html",
+            "added": {
+                "month": "March",
+                "day": 3,
+                "year": 2023
+            }
+        },
+        {
+            "id": "prop9",
+            "type": "Apartment",
+            "bedrooms": 1,
+            "price": 315000,
+            "tenure": "Leasehold",
+            "description": "Modern one bedroom top floor apartment featuring open-plan living space, fitted kitchen, Juliet balcony, contemporary bathroom, and allocated parking. Located within walking distance of local amenities and excellent transport connections.",
+            "location": "Maple Court, Beckenham, Kent BR3",
+            "picture": "images/prop5pic1small.jpg",
+            "url": "properties/prop5.html",
+            "added": {
+                "month": "January",
+                "day": 18,
                 "year": 2025
+            }
+        },
+        {
+            "id": "prop10",
+            "type": "Cottage",
+            "bedrooms": 2,
+            "price": 540000,
+            "tenure": "Freehold",
+            "description": "Character two bedroom cottage with a spacious lounge featuring exposed beams, fitted kitchen, ground floor shower room, and two first-floor bedrooms. Includes a private garden, off-street parking, and access to scenic countryside walks.",
+            "location": "Church Lane, Westerham, Kent TN16",
+            "picture": "images/prop6pic1small.jpg",
+            "url": "properties/prop6.html",
+            "added": {
+                "month": "July",
+                "day": 9,
+                "year": 2021
             }
         }
     ]
 }
-
