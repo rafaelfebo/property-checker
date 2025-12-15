@@ -1,2 +1,16 @@
 
+.nav-container {
+  display: flex;
+  align-items: center;
+}
 
+.nav-search {
+  margin-left: auto;
+}
+
+.nav-search input[type="text"] {
+  width: 220px;     
+  max-width: 40vw;
+  padding: 6px 10px;
+  box-sizing: border-box;
+}

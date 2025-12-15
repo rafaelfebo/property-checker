@@ -1,19 +1,19 @@
-import { useState } from 'react'
-import './App.css'
-import Nav from './components/Nav'
-import Content from './components/Content'
-import Footer from './components/Footer'
-import SearchBox from './components/SearchBox'
+// App.jsx
+import { useState } from "react";
+import Nav from "./components/Nav";
+import Properties from "./components/Properties";
+import Footer from "./components/Footer";
 
 function App() {
+  const [query, setQuery] = useState("");
+
   return (
     <>
-      <Nav/>
-      <SearchBox/>
-      <Content/>
-      <Footer/>
+      <Nav query={query} setQuery={setQuery} />
+      <Properties query={query} />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

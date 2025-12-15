@@ -1,16 +1,17 @@
-import React from 'react'
-import './nav.css'
+import SearchBox from "./SearchBox";
+import "./nav.css";
 
-function Nav() {
-    return (
-        <nav className="navbar navbar-inverse teste">
-                <div className="container-fluid">
-                    <div className="navbar-header">
-                        <a className="navbar-brand" href="#">Property Checker</a>
-                    </div>
-                </div>
-        </nav>
-            );
+function Nav({ query, setQuery }) {
+  return (
+    <nav className="navbar navbar-inverse">
+      <div className="container-fluid nav-container">
+        <a className="navbar-brand" href="#">Property Checker</a>
+        <div className="nav-search">
+          <SearchBox query={query} setQuery={setQuery} />
+        </div>
+      </div>
+    </nav>
+  );
 }
 
-export default Nav
+export default Nav;
