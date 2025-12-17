@@ -34,7 +34,7 @@ return (
       {filtered.map(prop => (
         <article key={prop.id} className="property-card" role="article" aria-label={`${prop.type} in ${prop.location}`}>
           <div className="card-media">
-            <img src={ prop.picture ? (prop.picture.startsWith('http') ? prop.picture : `/${prop.picture}`) : '../public/images/placeholder.png"' }
+            <img src={ prop.picture ? (prop.picture.startsWith('http') ? prop.picture : `/${prop.picture}`) : '../images/placeholder.png' }
                  alt={`${prop.type} in ${prop.location}`} />
           </div>
 
