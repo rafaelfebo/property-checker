@@ -1,0 +1,126 @@
+/* page container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  box-sizing: border-box;
+  padding-top: 4.50rem;
+}
+
+/* responsive grid */
+.properties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+  align-items: start;
+}
+
+/* card */
+.property-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  overflow: hidden;
+  transition: transform .16s ease, box-shadow .16s ease;
+  cursor: default; /* not clickable */
+}
+
+.property-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 34px rgba(0,0,0,0.10);
+}
+
+/* remove any .card-link rules if present */
+
+/* image */
+.card-media img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+
+/* body */
+.card-body {
+  padding: 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  min-height: 140px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-location {
+  font-weight: 400;
+  color: #555;
+  font-size: 0.95rem;
+  margin-left: 0.45rem;
+}
+
+.card-desc {
+  margin: 0;
+  font-size: 0.92rem;
+  color: #333;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.card-price { color: #1a73e8; }
+
+.card-bedrooms {
+  background: #f4f4f6;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #222;
+}
+
+.card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+/* thumbnails row */
+.thumbs {
+  display:flex;
+  gap:6px;
+  padding:6px;
+  background:#fff;
+}
+.thumb-btn {
+  border:none;
+  padding:0;
+  background:transparent;
+  cursor:pointer;
+  width:48px;
+  height:36px;
+  overflow:hidden;
+}
+.thumb-btn img { width:100%; height:100%; object-fit:cover; display:block; }
+.thumb-btn.active { outline:2px solid #1a73e8; border-radius:4px; }
+
+
+@media (max-width: 420px) {
+  .card-media img { height: 130px; }
+  .container { padding: 0.75rem; }
+}

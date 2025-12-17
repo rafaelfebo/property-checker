@@ -143,22 +143,6 @@
                 "day": 18,
                 "year": 2025
             }
-        },
-        {
-            "id": "prop10",
-            "type": "Cottage",
-            "bedrooms": 2,
-            "price": 540000,
-            "tenure": "Freehold",
-            "description": "Character two bedroom cottage with a spacious lounge featuring exposed beams, fitted kitchen, ground floor shower room, and two first-floor bedrooms. Includes a private garden, off-street parking, and access to scenic countryside walks.",
-            "location": "Church Lane, Westerham, Kent TN16",
-            "picture": "images/prop6pic1small.jpg",
-            "url": "properties/prop6.html",
-            "added": {
-                "month": "July",
-                "day": 9,
-                "year": 2021
-            }
         }
     ]
 }
