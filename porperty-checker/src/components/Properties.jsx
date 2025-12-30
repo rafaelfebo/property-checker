@@ -46,7 +46,7 @@ return (
 
             <p className="card-desc">{prop.description}</p>
             <div className="card-meta">
-              <span className="card-bedrooms">{prop.bedrooms} bd</span>
+              <span className="card-bedrooms">{prop.bedrooms} bed rooms</span>
               <span className="card-price">{prop.price ? `£${prop.price.toLocaleString()}` : 'Price N/A'}</span>
             </div>
           </div>

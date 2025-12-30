@@ -8,7 +8,7 @@
             "tenure": "Freehold",
             "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
             "location": "Petts Wood Road, Petts Wood, Orpington BR5",
-            "picture": "../images/prop1Exterior.png",
+            "picture": "../images/thumb/prop1Exterior.png",
             "url": "properties/prop1.html",
             "added": {
                 "month": "October",
@@ -24,7 +24,7 @@
             "tenure": "Leasehold",
             "description": "Beautifully presented two bedroom ground floor apartment located in a quiet residential development just 0.3 miles from Chislehurst High Street with its array of boutique shops, cafes and restaurants. The property features a spacious open-plan living/kitchen area with French doors leading to a private patio garden, modern bathroom, and two well-proportioned bedrooms with built-in storage. Additional benefits include allocated parking, communal gardens, and easy access to Chislehurst train station with regular services to central London.",
             "location": "Elm Park, Chislehurst, Kent BR7",
-            "picture": "../images/prop2Exterior.png",
+            "picture": "../images/thumb/prop2Exterior.png",
             "url": "properties/prop2.html",
             "added": {
                 "month": "November",
@@ -40,7 +40,7 @@
             "tenure": "Freehold",
             "description": "Spacious three bedroom detached bungalow situated in a sought-after cul-de-sac location. The property offers generous accommodation including a large lounge, modern kitchen/diner, family bathroom, and en-suite to master bedroom. Features include double glazing, gas central heating, driveway parking, garage, and a beautifully maintained rear garden.",
             "location": "Sandy Lane, Sevenoaks, Kent TN13",
-            "picture": "../images/prop3Exterior.png",
+            "picture": "../images/thumb/prop3Exterior.png",
             "url": "properties/prop3.html",
             "added": {
                 "month": "October",
@@ -56,7 +56,7 @@
             "tenure": "Freehold",
             "description": "Impressive four bedroom Victorian family home offering over 1,800 sq ft of well-proportioned living space. Features include high ceilings, original period details, bay windows, and a 50ft south-facing garden. Located within walking distance of Petts Wood station and local amenities.",
             "location": "The Crescent, Petts Wood, Orpington BR5",
-            "picture": "../images/prop4Exterior.png",
+            "picture": "../images/thumb/prop4Exterior.png",
             "url": "properties/prop4.html",
             "added": {
                 "month": "November",
@@ -72,7 +72,7 @@
             "tenure": "Leasehold",
             "description": "Stylish one bedroom first-floor maisonette in a secure gated development. The property boasts a modern kitchen, contemporary bathroom, and a private balcony. Close to Chislehurst station and local shops, with communal gardens and allocated parking.",
             "location": "Cedar Gardens, Chislehurst, Kent BR7",
-            "picture": "../images/prop5Exterior.png",
+            "picture": "../images/thumb/prop5Exterior.png",
             "url": "properties/prop5.html",
             "added": {
                 "month": "October",
@@ -88,7 +88,7 @@
             "tenure": "Freehold",
             "description": "Luxurious five bedroom executive family home set on a generous plot with stunning views over the surrounding countryside. The property features a designer kitchen, spacious living areas, en-suites to all bedrooms, a study, cinema room, and a landscaped rear garden with patio and lawn. Located in a private road with excellent schools nearby.",
             "location": "Green Lane, Woldingham, Surrey CR3",
-            "picture": "../images/prop6Exterior.png",
+            "picture": "../images/thumb/prop6Exterior.png",
             "url": "properties/prop6.html",
             "added": {
                 "month": "November",
@@ -104,7 +104,7 @@
             "tenure": "Leasehold",
             "description": "Contemporary studio apartment in a modern development with concierge service and communal roof terrace. The open-plan living space includes a fitted kitchen and modern bathroom. Ideal for first-time buyers or investors, just 0.2 miles from Elmers End station with direct links to London.",
             "location": "Station Road, Beckenham, Kent BR3",
-            "picture": "../images/prop7Exterior.png",
+            "picture": "../images/thumb/prop7Exterior.png",
             "url": "properties/prop7.html",
             "added": {
                 "month": "October",
@@ -120,7 +120,7 @@
             "tenure": "Freehold",
             "description": "Four bedroom detached property in a quiet residential road offering two reception rooms, refurbished kitchen, utility room, study, and landscaped rear garden. The first floor includes a master bedroom with en-suite, three additional bedrooms, and a modern family bathroom. Benefits include garage, driveway, and proximity to local schools and transport links.",
             "location": "Oakfield Road, Bromley, Kent BR1",
-            "picture": "../images/prop8Exterior.png",
+            "picture": "../images/thumb/prop8Exterior.png",
             "url": "properties/prop4.html",
             "added": {
                 "month": "March",
@@ -136,7 +136,7 @@
             "tenure": "Leasehold",
             "description": "Modern one bedroom top floor apartment featuring open-plan living space, fitted kitchen, Juliet balcony, contemporary bathroom, and allocated parking. Located within walking distance of local amenities and excellent transport connections.",
             "location": "Maple Court, Beckenham, Kent BR3",
-            "picture": "../images/prop9Exterior.png",
+            "picture": "../images/thumb/prop9Exterior.png",
             "url": "properties/prop5.html",
             "added": {
                 "month": "January",
