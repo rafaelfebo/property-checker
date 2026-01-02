@@ -2,7 +2,9 @@
 import React from "react";
 
 function FavoritesSidebar({ favorites = [], addFavorite, removeFavorite, clearFavorites }) {
-  // accept drops from property cards (they set 'application/json' with full prop)
+  /* Sidebar that shows the user's saved properties and lets the user manage them.
+     It receives the list of saved items and functions to add,remove and clear them.
+     The area also accepts dragged property cards so users can drop items to save them. */
   function handleDragOver(e) {
     e.preventDefault();
     e.dataTransfer.dropEffect = "copy";
@@ -14,14 +16,16 @@ function FavoritesSidebar({ favorites = [], addFavorite, removeFavorite, clearFa
     if (json) {
       try {
         const prop = JSON.parse(json);
+        // Add the dropped property to the favourites list
         addFavorite(prop);
       } catch (err) {
-        // ignore
+        // If the dropped data isn't valid JSON, do nothing
       }
     }
   }
 
-  // when dragging a favourite out, we set a "text/fav" id
+  /* When the user starts dragging a saved favourite, put its id into the
+     drag payload so the drop target can identify which favourite was moved. */
   function onFavDragStart(e, id) {
     e.dataTransfer.setData("text/fav", id);
     e.dataTransfer.effectAllowed = "move";
@@ -35,10 +39,12 @@ function FavoritesSidebar({ favorites = [], addFavorite, removeFavorite, clearFa
       aria-label="Favourites"
     >
       <div className="fav-header">
+        {/* Header showing how many favourites are saved and a clear action */}
         <h4>Favourites ({favorites.length})</h4>
         <button className="btn-clear" onClick={clearFavorites} aria-label="Clear favourites">Clear</button>
       </div>
 
+      {/* Area that lists saved favourites, or a helpful empty message */}
       <div className="fav-list" role="list">
         {favorites.length === 0 && <p className="fav-empty">No favourites yet — drag properties here or click the star.</p>}
 
@@ -51,6 +57,7 @@ function FavoritesSidebar({ favorites = [], addFavorite, removeFavorite, clearFa
             role="listitem"
             aria-grabbed="false"
           >
+            {/* Thumbnail image for the favourite; uses a placeholder if none provided */}
             <img
               className="fav-thumb"
               src={ f.picture ? (f.picture.startsWith('http') ? f.picture : `${f.picture}`) : '/images/placeholder.png' }
@@ -63,6 +70,7 @@ function FavoritesSidebar({ favorites = [], addFavorite, removeFavorite, clearFa
             </div>
 
             <div>
+              {/* Button to remove this property from favourites */}
               <button className="btn-remove" onClick={() => removeFavorite(f.id)} aria-label={`Remove ${f.id}`}>
                 &times;
               </button>
