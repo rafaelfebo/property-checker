@@ -1,4 +1,3 @@
-// FavoritesSidebar.jsx
 import React from "react";
 
 function FavoritesSidebar({ favorites = [], addFavorite, removeFavorite, clearFavorites }) {

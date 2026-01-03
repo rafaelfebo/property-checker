@@ -1,8 +1,8 @@
 import './nav.css'
 
-// Simple component that shows a search box.
-// It does not keep its own text — the current text (`query`) and
-// the function to change it (`setQuery`) are provided by the parent.
+/* Simple component that shows a search box.
+   It does not keep its own text — the current text (`query`) and
+   the function to change it (`setQuery`) are provided by the parent. */
 function SearchBox({ query, setQuery }) {
   return (
     <div className='container-fluid'>

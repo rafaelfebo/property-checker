@@ -1,7 +1,7 @@
 import React from 'react'
 
-// Simple footer shown at the bottom of the page.
-// Keeps branding and small print in a single place so it appears on all pages.
+/* Simple footer shown at the bottom of the page.
+   Keeps branding and small print in a single place so it appears on all pages. */
 function Footer() {
     return (
 <footer className="bg-body-tertiary text-center">

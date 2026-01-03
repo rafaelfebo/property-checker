@@ -25,8 +25,8 @@ function App() {
     localStorage.setItem("favorites", JSON.stringify(favorites));
   }, [favorites]);
 
-  // Add a property to favorites if it isn't already present
-  // Validates the object and deduplicates by `id` before updating state
+  /* Add a property to favorites if it isn't already present
+     Validates the object and deduplicates by `id` before updating state */
   function addFavorite(prop) {
     if (!prop || !prop.id) return;
     if (favorites.some(p => p.id === prop.id)) return;

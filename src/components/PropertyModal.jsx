@@ -1,15 +1,10 @@
-// components/PropertyModal.jsx
 import { useEffect, useState } from "react";
 import "./propertyModal.css";
 
-/**
- * PropertyModal
- * Props:
- * - prop: property object (the clicked property)
- * - onClose: () => void
- */
 export default function PropertyModal({ prop, onClose }) {
+  // Which tab the user is viewing in the modal: details, floor plan, or map
   const [activeTab, setActiveTab] = useState("details"); // "details" | "floor" | "map"
+  // Index of the main gallery image shown on the left side
   const [mainIndex, setMainIndex] = useState(0);
 
   useEffect(() => {
@@ -23,11 +18,15 @@ export default function PropertyModal({ prop, onClose }) {
   const placeholder = "/images/placeholder.png";
   const imagesFromProp = Array.isArray(prop.images) ? prop.images : (prop.picture ? [prop.picture] : []);
   const images = [];
+  /* list of six images to show in the gallery.
+     If the property provides fewer than six, we reuse available images */
   for (let i = 0; i < 6; i++) {
     images.push(imagesFromProp[i] ?? imagesFromProp[i % imagesFromProp.length] ?? placeholder);
   }
 
   let mapSrc;
+    /* Build a URL to embed Google Maps for the property's location.
+       Encode the location/postcode so spaces and special characters are safe in the URL. */
     const q = encodeURIComponent([prop.location, prop.postcode].filter(Boolean).join(" "));
     mapSrc = `https://www.google.com/maps?q=${q || encodeURIComponent(prop.location)}&z=15&output=embed`;
   
@@ -44,12 +43,12 @@ export default function PropertyModal({ prop, onClose }) {
 
         <div className="modal-body">
           <div className="modal-left">
-            {/* Gallery main image */}
+            {/* Gallery main image: shows the currently selected photo */}
             <div className="gallery-main">
               <img src={ images[mainIndex].startsWith("http") ? images[mainIndex] : `${images[mainIndex]}` } alt={`${prop.type} image ${mainIndex+1}`} />
             </div>
 
-            {/* Thumbnails */}
+            {/* Thumbnails: clicking a small image updates the main image on the left */}
             <div className="gallery-thumbs">
               {images.map((src, i) => (
                 <button
@@ -65,7 +64,7 @@ export default function PropertyModal({ prop, onClose }) {
           </div>
 
           <div className="modal-right">
-            {/* Tabs */}
+            {/* Tabs: switch between details, floor plan, and map views */}
             <nav className="modal-tabs" role="tablist" aria-label="Property tabs">
               <button
                 role="tab"
@@ -93,6 +92,7 @@ export default function PropertyModal({ prop, onClose }) {
               </button>
             </nav>
 
+            {/* Tab panel: only the active section is rendered below */}
             <div className="tab-panel">
               {activeTab === "details" && (
                 <section>
@@ -109,6 +109,7 @@ export default function PropertyModal({ prop, onClose }) {
                 </section>
               )}
 
+              {/* Floor plan tab: shows an image if available, otherwise a message */}
               {activeTab === "floor" && (
                 <section>
                   <h3>Floor plan</h3>
@@ -120,6 +121,7 @@ export default function PropertyModal({ prop, onClose }) {
                 </section>
               )}
 
+              {/* Map tab: shows an embedded Google map centered on the property */}
               {activeTab === "map" && (
                 <section>
                   <h3>Location</h3>
@@ -139,6 +141,7 @@ export default function PropertyModal({ prop, onClose }) {
         </div>
 
         <footer className="modal-footer">
+          {/* Close button: calls the parent `onClose` function to hide the modal */}
           <button className="btn btn-primary btn-sm" onClick={onClose}>Close</button>
         </footer>
       </div>
