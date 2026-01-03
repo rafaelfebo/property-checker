@@ -8,7 +8,9 @@
 
 /* main area takes remaining space */
 .main-area {
+  /* Allow the main area to grow and fill any leftover horizontal space */
   flex: auto;
+  min-height: 100vh;
 }
 
 /* Sidebar */
@@ -17,9 +19,10 @@
   background: #fafafa;
   border-left: 1px solid #e6e6e6;
   padding: 12px;
-  position: sticky;
-  top: 60px;
-  height: calc(90vh);
+  /* Fixed-width sidebar on the right side of the page */
+  position: sticky; /* keeps the sidebar visible while scrolling */
+  top: 60px; /* space from the top so it sits below the navbar */
+  height: calc(90vh); /* almost full viewport height so it fits on screen */
   overflow-y: auto;
   box-shadow: -2px 0 6px rgba(0,0,0,0.03);
   display: flex;
@@ -55,6 +58,8 @@
 }
 
 .fav-meta {
+  /* Area next to the thumbnail that holds title/location/price.
+     `min-width:0` helps long text truncate instead of overflowing. */
   flex: flex;
   min-width: 0;
   font-size: 13px;
@@ -114,8 +119,10 @@
 
 /* Responsive: on small screens move the sidebar below the main content */
 @media (max-width: 1024px) {
+  /* On smaller screens stack main content above the sidebar so the
+     sidebar appears below the property list and uses full width. */
   .app-layout { 
-    flex-direction: column;  /* Make it in the botto of the page */ 
+    flex-direction: column;  /* stack vertically on narrow screens */ 
 }
   .favorites-sidebar {
     position: relative;

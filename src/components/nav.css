@@ -1,9 +1,14 @@
 
+/* Container inside the top bar that holds the brand and the search area.
+   - `display: flex` lines up its children horizontally.
+   - `align-items: center` keeps them vertically centered. */
 .nav-container {
   display: flex;
   align-items: center;
 }
 
+/* The box that holds the search input. `margin-left: auto` pushes it to the
+   right side of the navbar so the brand stays on the left. */
 .nav-search {
   margin-left: auto;
 }

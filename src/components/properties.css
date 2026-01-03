@@ -1,31 +1,36 @@
 /* page container */
 .container {
+  /* Center the page content and limit its width so lines stay readable */
   max-width: 1100px;
   margin: 0 auto;
   padding: 1.25rem;
   box-sizing: border-box;
-  padding-top: 4.50rem;
+  padding-top: 4.50rem; /* space to account for fixed navbar at top */
 }
 
 /* responsive grid */
 .properties-grid {
+  /* Use a flexible grid that creates as many columns as fit the screen.
+     Each column is at least 260px wide but can grow to fill space. */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 15px;
+  gap: 15px; /* space between cards */
   align-items: start;
 }
 
 /* card */
 .property-card {
+  /* Each property is shown as a card with a small shadow and rounded corners */
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.06);
   overflow: hidden;
   transition: transform .16s ease, box-shadow .16s ease;
-  cursor: default; /* not clickable */
+  cursor: default; /* indicates the whole card itself isn't a clickable link */
 }
 
 .property-card:hover {
+  /* Slight lift effect on hover to make the card feel interactive */
   transform: translateY(-6px);
   box-shadow: 0 14px 34px rgba(0,0,0,0.10);
 }
@@ -34,6 +39,8 @@
 
 /* image */
 .card-media img {
+  /* Top image of the card. `object-fit: cover` crops the image to fill
+     the area without stretching, keeping a consistent card height. */
   width: 100%;
   height: 160px;
   object-fit: cover;
@@ -42,11 +49,12 @@
 
 /* body */
 .card-body {
+  /* Area under the image with title, description, and meta info */
   padding: 0.9rem 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
-  min-height: 140px;
+  min-height: 140px; /* helps cards stay uniform height */
 }
 
 .card-title {
@@ -63,6 +71,8 @@
 }
 
 .card-desc {
+  /* Short description text. The next rules limit it visually to three
+     lines so cards stay tidy even when descriptions are long. */
   margin: 0;
   font-size: 0.92rem;
   color: #333;
@@ -73,7 +83,14 @@
   overflow: hidden;
 }
 
+.property-link { 
+  text-decoration: none; 
+  color: inherit; 
+}
+
 .card-meta {
+  /* Bottom row of the card: bedroom count and price. `margin-top: auto`
+     pushes this area to the bottom so cards line up neatly. */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,6 +119,7 @@
 
 /* thumbnails row */
 .thumbs {
+  /* Small row of clickable thumbnails below the card image */
   display:flex;
   gap:6px;
   padding:6px;
@@ -121,5 +139,6 @@
 
 
 @media (max-width: 420px) {
+  /* On very small screens keep images slightly shorter to save space */
   .card-media img { height: 130px; }
 }

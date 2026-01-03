@@ -1,5 +1,4 @@
 import React from 'react'
-import './footer.css'
 
 // Simple footer shown at the bottom of the page.
 // Keeps branding and small print in a single place so it appears on all pages.
