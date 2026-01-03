@@ -34,6 +34,14 @@
             "description": "Beautifully presented two bedroom ground floor apartment located in a quiet residential development just 0.3 miles from Chislehurst High Street with its array of boutique shops, cafes and restaurants. The property features a spacious open-plan living/kitchen area with French doors leading to a private patio garden, modern bathroom, and two well-proportioned bedrooms with built-in storage. Additional benefits include allocated parking, communal gardens, and easy access to Chislehurst train station with regular services to central London.",
             "location": "Elm Park, Chislehurst, Kent BR7",
             "picture": "images/thumb/prop2Exterior.png",
+            "images": [
+                "images/p2/1.png",
+                "images/p2/2.png",
+                "images/p2/3.png",
+                "images/p2/4.png",
+                "images/p2/5.png",
+                "images/p2/6.png"
+            ],
             "url": "properties/prop2.html",
             "bedr": "2 bedrooms",
             "added": {
@@ -51,6 +59,14 @@
             "description": "Spacious three bedroom detached bungalow situated in a sought-after cul-de-sac location. The property offers generous accommodation including a large lounge, modern kitchen/diner, family bathroom, and en-suite to master bedroom. Features include double glazing, gas central heating, driveway parking, garage, and a beautifully maintained rear garden.",
             "location": "Sandy Lane, Sevenoaks, Kent TN13",
             "picture": "images/thumb/prop3Exterior.png",
+            "images": [
+                "images/p3/1.png",
+                "images/p3/2.png",
+                "images/p3/3.png",
+                "images/p3/4.png",
+                "images/p3/5.png",
+                "images/p3/6.png"
+            ],
             "url": "properties/prop3.html",
             "bedr": "3 bedrooms",
             "added": {
@@ -68,6 +84,14 @@
             "description": "Impressive four bedroom Victorian family home offering over 1,800 sq ft of well-proportioned living space. Features include high ceilings, original period details, bay windows, and a 50ft south-facing garden. Located within walking distance of Petts Wood station and local amenities.",
             "location": "The Crescent, Petts Wood, Orpington BR5",
             "picture": "images/thumb/prop4Exterior.png",
+            "images": [
+                "images/p4/1.png",
+                "images/p4/2.png",
+                "images/p4/3.png",
+                "images/p4/4.png",
+                "images/p4/5.png",
+                "images/p4/6.png"
+            ],
             "url": "properties/prop4.html",
             "bedr": "4 bedrooms",
             "added": {
@@ -85,6 +109,14 @@
             "description": "Stylish one bedroom first-floor maisonette in a secure gated development. The property boasts a modern kitchen, contemporary bathroom, and a private balcony. Close to Chislehurst station and local shops, with communal gardens and allocated parking.",
             "location": "Cedar Gardens, Chislehurst, Kent BR7",
             "picture": "images/thumb/prop5Exterior.png",
+            "images": [
+                "images/p5/1.png",
+                "images/p5/2.png",
+                "images/p5/3.png",
+                "images/p5/4.png",
+                "images/p5/5.png",
+                "images/p5/6.png"
+            ],
             "url": "properties/prop5.html",
             "bedr": "1 bedrooms",
             "added": {
@@ -102,6 +134,14 @@
             "description": "Luxurious five bedroom executive family home set on a generous plot with stunning views over the surrounding countryside. The property features a designer kitchen, spacious living areas, en-suites to all bedrooms, a study, cinema room, and a landscaped rear garden with patio and lawn. Located in a private road with excellent schools nearby.",
             "location": "Green Lane, Woldingham, Surrey CR3",
             "picture": "images/thumb/prop6Exterior.png",
+            "images": [
+                "images/p6/1.png",
+                "images/p6/2.png",
+                "images/p6/3.png",
+                "images/p6/4.png",
+                "images/p6/5.png",
+                "images/p6/6.png"
+            ],
             "url": "properties/prop6.html",
             "bedr": "5 bedrooms",
             "added": {
@@ -119,6 +159,14 @@
             "description": "A one bedroom contemporary studio apartment in a modern development with concierge service and communal roof terrace. The open-plan living space includes a fitted kitchen and modern bathroom. Ideal for first-time buyers or investors, just 0.2 miles from Elmers End station with direct links to London.",
             "location": "Station Road, Beckenham, Kent BR3",
             "picture": "images/thumb/prop7Exterior.png",
+            "images": [
+                "images/p7/1.png",
+                "images/p7/2.png",
+                "images/p7/3.png",
+                "images/p7/4.png",
+                "images/p7/5.png",
+                "images/p7/6.png"
+            ],
             "url": "properties/prop7.html",
             "bedr": "1 bedroom",
             "added": {
@@ -129,13 +177,21 @@
         },
         {
             "id": "prop8",
-            "type": "House",
+            "type": "Appartment",
             "bedrooms": 4,
             "price": 895000,
             "tenure": "Freehold",
             "description": "Four bedroom detached property in a quiet residential road offering two reception rooms, refurbished kitchen, utility room, study, and landscaped rear garden. The first floor includes a master bedroom with en-suite, three additional bedrooms, and a modern family bathroom. Benefits include garage, driveway, and proximity to local schools and transport links.",
             "location": "Oakfield Road, Bromley, Kent BR1",
             "picture": "images/thumb/prop8Exterior.png",
+            "images": [
+                "images/p8/1.png",
+                "images/p8/2.png",
+                "images/p8/3.png",
+                "images/p8/4.png",
+                "images/p8/5.png",
+                "images/p8/6.png"
+            ],
             "url": "properties/prop4.html",
             "bedr": "4 bedrooms",
             "added": {
@@ -153,6 +209,14 @@
             "description": "Modern one bedroom top floor apartment featuring open-plan living space, fitted kitchen, Juliet balcony, contemporary bathroom, and allocated parking. Located within walking distance of local amenities and excellent transport connections.",
             "location": "Maple Court, Beckenham, Kent BR3",
             "picture": "images/thumb/prop9Exterior.png",
+            "images": [
+                "images/p9/1.png",
+                "images/p9/2.png",
+                "images/p9/3.png",
+                "images/p9/4.png",
+                "images/p9/5.png",
+                "images/p9/6.png"
+            ],
             "url": "properties/prop5.html",
             "bedr": "1 bedrooms",
             "added": {
