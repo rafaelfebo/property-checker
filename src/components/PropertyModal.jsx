@@ -28,18 +28,18 @@ export default function PropertyModal({ prop, onClose }) {
   }
 
   let mapSrc;
-    const q = encodeURIComponent([prop.location, prop.address, prop.postcode].filter(Boolean).join(" "));
+    const q = encodeURIComponent([prop.location, prop.postcode].filter(Boolean).join(" "));
     mapSrc = `https://www.google.com/maps?q=${q || encodeURIComponent(prop.location)}&z=15&output=embed`;
   
 
-  const longDescription = prop.longDescription || prop.description || "No description available.";
+  const description = prop.description || "No description available.";
 
   return (
     <div className="modal-backdrop" role="dialog" aria-modal="true" aria-label={`${prop.type} details`}>
       <div className="modal-window">
         <header className="modal-header">
           <h2>{prop.type} — {prop.location}</h2>
-          <button className="modal-close" onClick={onClose} aria-label="Close details">✕</button>
+          <button className="btn btn-primary btn-sm" onClick={onClose} aria-label="Close details">X</button>
         </header>
 
         <div className="modal-body">
@@ -97,7 +97,7 @@ export default function PropertyModal({ prop, onClose }) {
               {activeTab === "details" && (
                 <section>
                   <h3>Full description</h3>
-                  <p className="long-desc">{longDescription}</p>
+                  <p className="long-desc">{description}</p>
 
                   <ul className="prop-meta-list">
                     <li><strong>Price:</strong> {prop.price ? `£${Number(prop.price).toLocaleString()}` : "N/A"}</li>
@@ -139,7 +139,7 @@ export default function PropertyModal({ prop, onClose }) {
         </div>
 
         <footer className="modal-footer">
-          <button className="btn-close-secondary" onClick={onClose}>Close</button>
+          <button className="btn btn-primary btn-sm" onClick={onClose}>Close</button>
         </footer>
       </div>
     </div>

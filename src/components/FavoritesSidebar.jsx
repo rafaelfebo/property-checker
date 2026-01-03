@@ -41,7 +41,7 @@ function FavoritesSidebar({ favorites = [], addFavorite, removeFavorite, clearFa
       <div className="fav-header">
         {/* Header showing how many favourites are saved and a clear action */}
         <h4>Favourites ({favorites.length})</h4>
-        <button className="btn-clear" onClick={clearFavorites} aria-label="Clear favourites">Clear</button>
+        <button className="btn btn-primary btn-sm" onClick={clearFavorites} aria-label="Clear favourites">Clear</button>
       </div>
 
       {/* Area that lists saved favourites, or a helpful empty message */}
