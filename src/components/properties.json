@@ -17,7 +17,7 @@
                 "images/p1/5.jpg",
                 "images/p1/6.jpg"
             ],
-            "floorPlan": "/images/p1/floorplan.jpg",
+            "floorPlan": "images/p1/floorplan.png",
             "url": "properties/prop1.html",
             "bedr": "3 bedrooms",
             "added": {
@@ -43,6 +43,7 @@
                 "images/p2/5.png",
                 "images/p2/6.png"
             ],
+            "floorPlan": "images/p2/floorplan.png",
             "url": "properties/prop2.html",
             "bedr": "2 bedrooms",
             "added": {
@@ -68,6 +69,7 @@
                 "images/p3/5.png",
                 "images/p3/6.png"
             ],
+            "floorPlan": "images/p3/floorplan.png",
             "url": "properties/prop3.html",
             "bedr": "3 bedrooms",
             "added": {
@@ -93,6 +95,7 @@
                 "images/p4/5.png",
                 "images/p4/6.png"
             ],
+            "floorPlan": "images/p4/floorplan.png",
             "url": "properties/prop4.html",
             "bedr": "4 bedrooms",
             "added": {
@@ -118,6 +121,7 @@
                 "images/p5/5.png",
                 "images/p5/6.png"
             ],
+            "floorPlan": "images/p5/floorplan.png",
             "url": "properties/prop5.html",
             "bedr": "1 bedrooms",
             "added": {
@@ -143,6 +147,7 @@
                 "images/p6/5.png",
                 "images/p6/6.png"
             ],
+            "floorPlan": "images/p6/floorplan.png",
             "url": "properties/prop6.html",
             "bedr": "5 bedrooms",
             "added": {
@@ -168,6 +173,7 @@
                 "images/p7/5.png",
                 "images/p7/6.png"
             ],
+            "floorPlan": "images/p7/floorplan.png",
             "url": "properties/prop7.html",
             "bedr": "1 bedroom",
             "added": {
@@ -193,6 +199,7 @@
                 "images/p8/5.png",
                 "images/p8/6.png"
             ],
+            "floorPlan": "images/p8/floorplan.png",
             "url": "properties/prop4.html",
             "bedr": "4 bedrooms",
             "added": {
@@ -218,6 +225,7 @@
                 "images/p9/5.png",
                 "images/p9/6.png"
             ],
+            "floorPlan": "images/p9/floorplan.png",
             "url": "properties/prop5.html",
             "bedr": "1 bedrooms",
             "added": {
