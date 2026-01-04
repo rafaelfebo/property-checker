@@ -21,6 +21,7 @@ function Properties({ query = "", favorites = [], addFavorite, removeFavorite })
           prop.location,
           prop.description,
           prop.tenure,
+          prop.bedr,
           String(prop.bedrooms),
           String(prop.price)
         ].some(field => field && field.toLowerCase().includes(q));
